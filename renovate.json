@@ -1,0 +1,9 @@
+{
+  "extends": ["config:base"],
+  "npm": {
+    "enabled": true,
+    "registryUrls": [
+      "http://10.1.25.177:9001/artifactory/api/npm/bot-npm/"
+    ]
+  }
+}
