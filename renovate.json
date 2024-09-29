@@ -3,16 +3,7 @@
   "npm": {
     "enabled": true,
     "registryUrls": [
-      "http://10.1.25.177:9001/artifactory/api/npm/bot-npm/"
+      "https://npmbobo.jfrogdev.org/artifactory/api/npm/bot-npm/"
     ]
-  },
-  "packageRules": [
-    {
-      "matchDatasources": ["npm"],
-      "registryUrls": [
-        "http://10.1.25.177:9001/artifactory/api/npm/bot-npm/"
-      ]
-    }
-  ],
-  "npmrc": "registry=http://10.1.25.177:9001/artifactory/api/npm/bot-npm/\n//10.1.25.177:9001/artifactory/api/npm/bot-npm/:_authToken=eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJNVWdpazU4Vjgtbk83aWMtSXpSNGc4dHZ4djlmQ1VzVEZ3dVBLdjA5R1lNIn0"
+  }
 }
