@@ -9,6 +9,6 @@
     "axios": "^0.21.1"
   },
   "publishConfig": {
-    "registry": "https://npmbobo.jfrogdev.org/artifactory/api/npm/bot-npm/"
+    "registry": "https://botnpmbot.jfrog.io/artifactory/api/npm/bot-npm/"
   }
 }
